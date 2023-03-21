@@ -1,0 +1,19 @@
+.accessoryToolbar {
+  max-width: 210px;
+  width: 100%;
+  height: 100%;
+  padding: 29px 29px 0 30px;
+  @media (max-width: 769px) {
+		display: flex;
+		justify-content: center;
+    max-width: 100%;
+    padding: 29px;
+    box-sizing: border-box;
+  }
+  .cardList {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: wrap;
+  }
+}

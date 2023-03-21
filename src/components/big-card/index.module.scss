@@ -1,0 +1,70 @@
+.bigCard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  width: 100%;
+  background: #fff;
+  border-radius: 6px;
+  padding: 17px 10.5px 15px;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 150%;
+  letter-spacing: 0.02em;
+  cursor: pointer;
+  span {
+    margin-top: 12px;
+  }
+  .textfield {
+    margin-top: 10px;
+    width: 100%;
+    background-color: #fff;
+    border-radius: 2px;
+    padding: 5px;
+    box-sizing: border-box;
+    input {
+      font-family: Roboto;
+      width: 100%;
+      box-sizing: border-box;
+      padding: 5.5px 5px;
+      border: #e4e6f1 1px solid;
+      outline: none;
+      border-radius: 2px;
+      &::placeholder {
+        font-weight: 400;
+        font-size: 11px;
+        line-height: 150%;
+        letter-spacing: 0.02em;
+        color: #252a32;
+        font-family: Roboto;
+      }
+    }
+  }
+  .actionButtons {
+    display: flex;
+    position: absolute;
+    right: 10px;
+    top: -27px;
+    width: 111px;
+    height: 27px;
+    gap: 5px;
+    .buttonPart {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 5px;
+      width: 100%;
+      border-radius: 3px 3px 0px 0px;
+      img{
+        cursor: pointer;
+        border-radius: 2px;
+        &:hover{
+          background: #4B97B8;
+        }
+      }
+    }
+    .replaceButtons {
+      background-color: blue;
+    }
+  }
+}
